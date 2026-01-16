@@ -13,4 +13,7 @@ export default defineConfig({
   // For local development, this doesn't affect anything.
   // ===========================================
   base: '/',
+  build: {
+    outDir: 'docs'
+  }
 })
