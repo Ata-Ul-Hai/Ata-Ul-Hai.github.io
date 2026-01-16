@@ -35,6 +35,6 @@ export const projects = [
     description: "AI-driven career counseling ecosystem aimed at reducing higher-education dropout rates. Built during Smart India Hackathon in team collaboration.",
     techStack: ["Hackathon", "Team Project"],
     // liveUrl: "https://example.com/yuktibharat",
-    githubUrl: "https://github.com/AVPthegreat/sih"
+    githubUrl: "https://github.com/Ata-Ul-Hai/YuktiBharat"
   }
 ];
