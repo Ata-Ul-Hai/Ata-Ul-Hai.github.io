@@ -1,40 +1,42 @@
-/* ===========================================
-   PROJECTS DATA
-   
-   This is where you store your project information.
-   =========================================== */
-
 export const projects = [
   {
     id: 1,
-    title: "Code Debugger",
-    description: "AI-powered debugging tool designed to analyze code and identify runtime and logical errors. Features context-aware suggestions and automated fix generation.",
-    techStack: ["Python", "AI"],
-    // liveUrl: "https://example.com/code-debugger",
-    githubUrl: "https://github.com/Ata-Ul-Hai/debugsteller"
+    title: "AniGenerator",
+    description:
+      "Asynchronous FastAPI backend for document ingestion and AI pipeline orchestration. Built task processing pipeline for AI-based video generation with modular service design, PostgreSQL persistence, and GCP deployment.",
+    techStack: ["FastAPI", "PostgreSQL", "GCP", "Docker", "TypeScript"],
+    githubUrl: "https://github.com/Ata-Ul-Hai/AniGenerator",
+    liveUrl: null,
+    period: "Jan 2026 – Apr 2026",
   },
   {
     id: 2,
-    title: "Modular Taskboard",
-    description: "Fully functional task management application focused on modularity and usability. Features offline support, modular components, and responsive layouts.",
-    techStack: ["HTML", "CSS", "JavaScript"],
-    // liveUrl: "https://example.com/taskboard",
-    githubUrl: "https://github.com/Ata-Ul-Hai/modularTaskboard"
+    title: "Bitcoin Engineering Projects",
+    description:
+      "Suite of Bitcoin protocol tools: a block parser (Sherlock), PSBT builder with coin selection and RBF support (Coin Smith), and a transaction classifier using heuristic-based clustering (Chain Lens).",
+    techStack: ["Node.js", "Express", "Bitcoin Protocol"],
+    githubUrl: "https://github.com/Ata-Ul-Hai",
+    liveUrl: null,
+    period: "Summer 2026",
   },
   {
     id: 3,
-    title: "Smart City Dashboard",
-    description: "Real-time dashboard for monitoring weather and air quality across global cities. Integrates multiple APIs with interactive Chart.js visualizations.",
-    techStack: ["HTML", "CSS", "JavaScript", "Chart.js", "APIs"],
-    // liveUrl: "https://example.com/smart-city",
-    githubUrl: "https://github.com/Ata-Ul-Hai/Smart_city"
+    title: "Autonomous Code Debugger",
+    description:
+      "Offline debugging system with automated error detection and patch generation. Implements an iterative Run→Observe→Patch loop using a local LLM (Qwen-2.5-Coder via Ollama) for fully autonomous code correction.",
+    techStack: ["Python", "Ollama", "Qwen-2.5-Coder"],
+    githubUrl: "https://github.com/Ata-Ul-Hai/debugsteller",
+    liveUrl: null,
+    period: "Dec 2025",
   },
   {
     id: 4,
-    title: "SIH – YuktiBharat",
-    description: "AI-driven career counseling ecosystem aimed at reducing higher-education dropout rates. Built during Smart India Hackathon in team collaboration.",
-    techStack: ["Hackathon", "Team Project"],
-    // liveUrl: "https://example.com/yuktibharat",
-    githubUrl: "https://github.com/Ata-Ul-Hai/YuktiBharat"
-  }
+    title: "Smart City Dashboard",
+    description:
+      "Real-time dashboard for monitoring weather and air quality across global cities. Integrates multiple APIs with interactive Chart.js visualizations.",
+    techStack: ["HTML", "CSS", "JavaScript", "Chart.js"],
+    githubUrl: "https://github.com/Ata-Ul-Hai/Smart_city",
+    liveUrl: null,
+    period: "2025",
+  },
 ];
