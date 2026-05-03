@@ -32,19 +32,18 @@
 }
 
 .logo {
-  font-family: var(--font-heading);
-  font-size: var(--text-xl);
-  font-weight: 700;
-  color: var(--text-primary);
-  letter-spacing: -0.02em;
   display: flex;
   align-items: center;
-  gap: var(--space-2);
+  transition: opacity var(--ease-fast);
 }
 
-.logo-bracket {
-  color: var(--text-muted);
-  font-weight: 300;
+.logo:hover {
+  opacity: 0.8;
+}
+
+.logo svg {
+  width: 48px;
+  height: 48px;
 }
 
 .nav-list {
@@ -178,30 +177,12 @@
 
 .hero-image {
   position: relative;
-  width: 148px;
-  height: 148px;
+  width: 150px;
+  height: 150px;
   margin-bottom: var(--space-2);
-}
-
-.hero-image::before {
-  content: '';
-  position: absolute;
-  inset: -3px;
+  border: 1px solid var(--border-strong);
   border-radius: 50%;
-  background: conic-gradient(from 0deg, transparent 0%, var(--accent) 30%, transparent 60%, var(--accent) 90%, transparent);
-  animation: spin 8s linear infinite;
-}
-
-@keyframes spin {
-  to { transform: rotate(360deg); }
-}
-
-.hero-image::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  border-radius: 50%;
-  background: var(--bg-primary);
+  padding: 4px;
 }
 
 .profile-pic {
@@ -482,6 +463,10 @@
   padding: var(--space-6) 0;
   border-bottom: 1px solid var(--border);
   position: relative;
+}
+
+.activity-item:first-child {
+  padding-top: 0;
 }
 
 .activity-item:last-child {
