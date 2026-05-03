@@ -4,15 +4,15 @@ export const education = [
     institution: "Polaris School of Technology",
     subtitle: "Medhavi Skills University",
     degree: "B.Tech in Computer Science (AI & ML)",
-    period: "2025 – 2029",
+    period: "2025 - 2029",
     type: "education",
   },
   {
     id: 2,
     institution: "BITS Pilani",
     subtitle: "Birla Institute of Technology and Science",
-    degree: "B.S. in Computer Science (Online)",
-    period: "2026 – 2029",
+    degree: "B.S. in Computer Science",
+    period: "2026 - 2029",
     type: "education",
   },
 ];
@@ -20,7 +20,7 @@ export const education = [
 export const activities = [
   {
     id: 1,
-    title: "Organizing Committee — Core Member",
+    title: "Organizing Committee - Core Member",
     org: "Polaris School of Technology",
     description:
       "Contributed to the execution of Vibeathon (Replit), OpenAI AI Engineers Day, and Vibecon (Emergent / Y Combinator).",
@@ -39,7 +39,7 @@ export const activities = [
     title: "Hackathon Participant",
     org: "Multiple Events",
     description:
-      "Built functional prototypes under time-constrained environments across multiple hackathons. Participated in SIH building YuktiBharat — an AI-driven career counseling ecosystem.",
+      "Built functional prototypes under time-constrained environments across multiple hackathons. Participated in SIH building YuktiBharat - an AI-driven career counseling ecosystem.",
     type: "activity",
   },
 ];
