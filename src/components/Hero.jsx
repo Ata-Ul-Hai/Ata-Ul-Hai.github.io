@@ -1,58 +1,88 @@
-/* ===========================================
-   HERO COMPONENT
-   
-   The first thing visitors see - includes:
-   - Profile picture
-   - Greeting
-   - Your name (big and prominent)
-   - A tagline describing what you do
-   - A call-to-action button
-   =========================================== */
-
-// Import the profile picture from assets folder
+import { useState, useEffect } from 'react';
 import profilePic from '../assets/profile.JPG';
 
-/**
- * Hero Component
- * 
- * This section makes a strong first impression.
- * Keep the tagline short and memorable!
- */
+const roles = [
+  'Backend Engineer',
+  'CS Undergraduate @ Polaris & BITS',
+  'AI & ML Enthusiast',
+  'Open-Source Builder',
+];
+
 function Hero() {
-    return (
-        // 'section' is semantic HTML for a standalone section of content
-        // 'id' is used for anchor link navigation (clicking "About" scrolls here)
-        <section id="hero" className="hero">
-            <div className="container hero-content">
+  const [displayText, setDisplayText] = useState('');
+  const [roleIndex, setRoleIndex] = useState(0);
+  const [charIndex, setCharIndex] = useState(0);
+  const [isDeleting, setIsDeleting] = useState(false);
 
-                {/* Profile Picture */}
-                <div className="hero-image">
-                    <img
-                        src={profilePic}
-                        alt="Ata Ul Hai"
-                        className="profile-pic"
-                    />
-                </div>
+  useEffect(() => {
+    const current = roles[roleIndex];
+    const speed = isDeleting ? 40 : 80;
 
-                {/* Small greeting above the name */}
-                <p className="hero-greeting">Hello, I'm</p>
+    const timeout = setTimeout(() => {
+      if (!isDeleting) {
+        setDisplayText(current.slice(0, charIndex + 1));
+        if (charIndex + 1 === current.length) {
+          setTimeout(() => setIsDeleting(true), 1800);
+        } else {
+          setCharIndex((c) => c + 1);
+        }
+      } else {
+        setDisplayText(current.slice(0, charIndex - 1));
+        if (charIndex - 1 === 0) {
+          setIsDeleting(false);
+          setRoleIndex((i) => (i + 1) % roles.length);
+          setCharIndex(0);
+        } else {
+          setCharIndex((c) => c - 1);
+        }
+      }
+    }, speed);
 
-                {/* Your name - the main focus */}
-                <h1 className="hero-name">Ata Ul Hai</h1>
+    return () => clearTimeout(timeout);
+  }, [charIndex, isDeleting, roleIndex]);
 
-                {/* Brief tagline - what you do or aspire to do */}
-                <p className="hero-tagline">
-                    CS Undergrad | AI & ML Enthusiast | Web Developer
-                </p>
+  return (
+    <section id="hero" className="hero">
+      <div className="container hero-content">
 
-                {/* Call-to-action button */}
-                <a href="#projects" className="hero-cta">
-                    View My Work
-                </a>
+        <div className="hero-image fade-up">
+          <img
+            src={profilePic}
+            alt="Ata Ul Hai"
+            className="profile-pic"
+          />
+        </div>
 
-            </div>
-        </section>
-    );
+        <p className="hero-eyebrow fade-up fade-up--delay-1">Hello, I'm</p>
+
+        <h1 className="hero-name fade-up fade-up--delay-2">Ata Ul Hai</h1>
+
+        <p className="hero-tagline fade-up fade-up--delay-3">
+          {displayText}
+          <span className="cursor-blink" aria-hidden="true" />
+        </p>
+
+        <div className="hero-actions fade-up fade-up--delay-4">
+          <a href="#projects" className="btn-primary">
+            View Work ↓
+          </a>
+          <a
+            href="/Resume.pdf"
+            download
+            className="btn-secondary"
+          >
+            Resume ↓
+          </a>
+        </div>
+
+      </div>
+
+      <div className="hero-scroll-hint" aria-hidden="true">
+        <div className="scroll-line" />
+        <span>scroll</span>
+      </div>
+    </section>
+  );
 }
 
 export default Hero;
