@@ -1,40 +1,46 @@
-/* ===========================================
-   ABOUT COMPONENT
-   
-   A brief introduction about yourself.
-   Keep it honest, simple, and personal.
-   3-4 lines is perfect - don't overdo it!
-   =========================================== */
-
-/**
- * About Component
- * 
- * Tips for writing your about section:
- * - Be authentic
- * - Mention what you're learning or interested in
- * - Keep it conversational, not formal
- */
 function About() {
-    return (
-        <section id="about" className="section about">
-            <div className="container">
+  return (
+    <section id="about" className="section about">
+      <div className="container">
+        <div className="about-grid">
 
-                {/* Section title with decorative underline (styled in CSS) */}
-                <h2 className="section-title">About Me</h2>
+          <div>
+            <p className="section-title">About</p>
+          </div>
 
-                <div className="about-content">
-                    <p className="about-text">
-                        I'm a Computer Science undergraduate at Polaris School of Technology,
-                        specializing in AI and Machine Learning. I have a strong interest in
-                        product development and open-source engineering. Currently, I'm building
-                        functional web applications, integrating APIs, and working with JavaScript,
-                        Python, and modern web technologies to solve problems through hands-on development.
-                    </p>
-                </div>
+          <div>
+            <p className="about-label">Who I am</p>
+            <p className="about-text">
+              I'm a Computer Science undergraduate focused on{' '}
+              <strong>backend engineering, distributed systems, and AI-driven applications</strong>.
+              I build scalable APIs, asynchronous processing pipelines, and protocol-level tools —
+              things that live under the surface but power everything on top.
+            </p>
 
+            <div className="about-meta">
+              <div className="about-meta-item">
+                <span className="about-meta-dot" />
+                <span>B.Tech CS (AI & ML) — Polaris School of Technology, 2025–2029</span>
+              </div>
+              <div className="about-meta-item">
+                <span className="about-meta-dot" />
+                <span>B.S. CS (Online) — BITS Pilani, 2026–2029</span>
+              </div>
+              <div className="about-meta-item">
+                <span className="about-meta-dot" />
+                <span>Summer of Bitcoin 2026 participant — built Bitcoin protocol tooling</span>
+              </div>
+              <div className="about-meta-item">
+                <span className="about-meta-dot" />
+                <span>Core Organizing Committee — Polaris events including Vibecon & AI Engineers Day</span>
+              </div>
             </div>
-        </section>
-    );
+          </div>
+
+        </div>
+      </div>
+    </section>
+  );
 }
 
 export default About;
