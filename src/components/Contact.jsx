@@ -1,71 +1,59 @@
-/* ===========================================
-   CONTACT COMPONENT
-   
-   Simple contact section with social links.
-   Uses black icons by default, colored on hover.
-   =========================================== */
-
-// Import icon images from assets folder
-// Black versions for default state
-import githubBlack from '../assets/github-dark.svg';
-import linkedinBlack from '../assets/InBug-Black.png';
-// Colored version for Gmail (no black version needed)
+import githubIcon from '../assets/github-dark.svg';
+import linkedinIcon from '../assets/InBug-Black.png';
 import gmailIcon from '../assets/gmail.png';
 
-/**
- * Contact Component
- */
 function Contact() {
-    return (
-        <section id="contact" className="section contact">
-            <div className="container">
+  return (
+    <section id="contact" className="section contact">
+      <div className="container">
+        <div className="contact-inner">
 
-                <h2 className="section-title">Get In Touch</h2>
+          <h2 className="contact-heading">
+            Let's build something<br />
+            <em>worth talking about.</em>
+          </h2>
 
-                <p className="contact-text">
-                    I'm always open to new opportunities and collaborations.
-                    Feel free to reach out!
-                </p>
+          <p className="contact-text">
+            Open to backend engineering roles, interesting projects, and conversations
+            about distributed systems, AI pipelines, or Bitcoin protocol engineering.
+          </p>
 
-                {/* Social Links */}
-                <div className="social-links">
+          <div className="contact-links">
+            <a
+              href="mailto:ataulhai2007@gmail.com"
+              className="contact-email-cta"
+              id="contact-email"
+            >
+              Say Hello →
+            </a>
 
-                    {/* GitHub Link */}
-                    <a
-                        href="https://github.com/Ata-Ul-Hai"
-                        className="social-link"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        <img src={githubBlack} alt="GitHub" className="social-icon" />
-                        GitHub
-                    </a>
+            <a
+              href="https://github.com/Ata-Ul-Hai"
+              className="contact-link"
+              target="_blank"
+              rel="noopener noreferrer"
+              id="contact-github"
+            >
+              <img src={githubIcon} alt="" className="contact-link-icon" style={{ filter: 'invert(1)' }} />
+              GitHub
+            </a>
 
-                    {/* LinkedIn Link */}
-                    <a
-                        href="https://www.linkedin.com/in/ataulhai/"
-                        className="social-link"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        <img src={linkedinBlack} alt="LinkedIn" className="social-icon" />
-                        LinkedIn
-                    </a>
+            <a
+              href="https://www.linkedin.com/in/ataulhai/"
+              className="contact-link"
+              target="_blank"
+              rel="noopener noreferrer"
+              id="contact-linkedin"
+            >
+              <img src={linkedinIcon} alt="" className="contact-link-icon" style={{ filter: 'invert(1)' }} />
+              LinkedIn
+            </a>
+          </div>
 
-                    {/* Email Link */}
-                    <a
-                        href="mailto:ataulhai2007@gmail.com"
-                        className="social-link"
-                    >
-                        <img src={gmailIcon} alt="Email" className="social-icon" />
-                        Email
-                    </a>
-
-                </div>
-
-            </div>
-        </section>
-    );
+        </div>
+      </div>
+    </section>
+  );
 }
 
 export default Contact;
