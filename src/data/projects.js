@@ -11,11 +11,11 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Bitcoin Engineering Projects",
+    title: "Bitcoin Engineering Challenges",
     description:
       "Suite of Bitcoin protocol tools: a block parser (Sherlock), PSBT builder with coin selection and RBF support (Coin Smith), and a transaction classifier using heuristic-based clustering (Chain Lens).",
-    techStack: ["Node.js", "Express", "Bitcoin Protocol"],
-    githubUrl: "https://github.com/Ata-Ul-Hai",
+    techStack: ["Node.js", "Express", "Bitcoin Protocol", "Summer Of Bitcoin"],
+    githubUrl: "https://github.com/Ata-Ul-Hai?tab=repositories",
     liveUrl: null,
     period: "Summer 2026",
   },
@@ -24,7 +24,7 @@ export const projects = [
     title: "Autonomous Code Debugger",
     description:
       "Offline debugging system with automated error detection and patch generation. Implements an iterative Run-Observe-Patch loop using a local LLM (Qwen-2.5-Coder via Ollama) for fully autonomous code correction.",
-    techStack: ["Python", "Ollama", "Qwen-2.5-Coder"],
+    techStack: ["Python", "Ollama", "Qwen-2.5-Coder", "Hackathon"],
     githubUrl: "https://github.com/Ata-Ul-Hai/debugsteller",
     liveUrl: null,
     period: "Dec 2025",

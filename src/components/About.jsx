@@ -13,7 +13,7 @@ function About() {
             <p className="about-text">
               I'm a Computer Science undergraduate focused on{' '}
               <strong>backend engineering, distributed systems, and AI-driven applications</strong>.
-              I build scalable APIs, asynchronous processing pipelines, and protocol-level tools -
+              I have build scalable APIs, asynchronous processing pipelines, and protocol-level tools -
               things that live under the surface but power everything on top.
             </p>
 
