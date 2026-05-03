@@ -32,18 +32,15 @@
 }
 
 .logo {
-  display: flex;
-  align-items: center;
+  font-family: var(--font-signature);
+  font-size: 2.2rem;
+  color: var(--text-primary);
   transition: opacity var(--ease-fast);
+  padding-bottom: 5px;
 }
 
 .logo:hover {
   opacity: 0.8;
-}
-
-.logo svg {
-  width: 48px;
-  height: 48px;
 }
 
 .nav-list {
