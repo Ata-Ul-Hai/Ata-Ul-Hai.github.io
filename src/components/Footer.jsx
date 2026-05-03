@@ -1,29 +1,28 @@
-/* ===========================================
-   FOOTER COMPONENT
-   
-   Simple footer with copyright text.
-   Dynamically shows the current year.
-   =========================================== */
-
-/**
- * Footer Component
- * 
- * Uses JavaScript's Date() to get the current year.
- * This way, you never have to manually update it each year!
- */
 function Footer() {
-    // Get the current year (e.g., 2024)
-    const currentYear = new Date().getFullYear();
+  const year = new Date().getFullYear();
 
-    return (
-        <footer className="footer">
-            <div className="container">
-                <p className="footer-text">
-                    © {currentYear} Ata Ul Hai. Built with React.
-                </p>
-            </div>
-        </footer>
-    );
+  return (
+    <footer className="footer">
+      <div className="container footer-content">
+        <p className="footer-text">
+          © {year} Ata Ul Hai — Designed & built from scratch.
+        </p>
+        <div className="footer-links">
+          <a
+            href="https://github.com/Ata-Ul-Hai/ataulhai.github.io"
+            className="footer-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Source
+          </a>
+          <a href="#hero" className="footer-link">
+            Back to top ↑
+          </a>
+        </div>
+      </div>
+    </footer>
+  );
 }
 
 export default Footer;
