@@ -66,13 +66,6 @@ function Hero() {
           <a href="#projects" className="btn-primary">
             View Work ↓
           </a>
-          <a
-            href="/Resume.pdf"
-            download
-            className="btn-secondary"
-          >
-            Resume ↓
-          </a>
         </div>
 
       </div>
