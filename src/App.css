@@ -479,8 +479,6 @@
   padding-top: 2px;
 }
 
-.activity-content {}
-
 .activity-title {
   font-family: var(--font-heading);
   font-size: var(--text-base);
