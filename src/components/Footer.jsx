@@ -5,7 +5,7 @@ function Footer() {
     <footer className="footer">
       <div className="container footer-content">
         <p className="footer-text">
-          © {year} Ata Ul Hai — Designed & built from scratch.
+          © {year} Ata Ul Hai - Designed & built from scratch.
         </p>
         <div className="footer-links">
           <a
