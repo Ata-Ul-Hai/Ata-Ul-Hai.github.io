@@ -29,4 +29,34 @@ export const projects = [
     liveUrl: null,
     period: "Dec 2025",
   },
+  {
+    id: 4,
+    title: "Swirl",
+    description:
+      "Swirl is a React food ordering app built with Vite, React Router, Redux Toolkit, and Tailwind CSS. It lets users browse restaurants, inspect restaurant menus, add items to a cart, and explore a lazily loaded grocery section.",
+    techStack: ["React19", "Axios", "Tailwind CSS", "Redux Toolkit", "Vitest"],
+    githubUrl: "https://github.com/Ata-Ul-Hai/Swirl",
+    liveUrl: "swirl-theta.vercel.app",
+    period: "Jun 2026",
+  },
+  {
+    id: 5,
+    title: "Cache Proxy Server",
+    description:
+      "CLI tool that starts a caching proxy server, it will forward requests to the actual server and cache the responses. If the same request is made again, it will return the cached response instead of forwarding the request to the server.",
+    techStack: ["Node", "Axios", "Tailwind CSS", "Redux Toolkit", "Vitest"],
+    githubUrl: "https://github.com/Ata-Ul-Hai/cacheProxyServer",
+    liveUrl: null,
+    period: "Jun 2026",
+  },
+  {
+    id: 6,
+    title: "Confab",
+    description:
+      "Confab is a production-ready, low-latency Voice AI Agent designed for technical hackathon judging and screening. It uses advanced Voice AI to interview candidates, probe technical claims in their pitch decks, and generate structured evaluations.",
+    techStack: ["Pipecat 1.1.0", "Daily.co (WebRTC)", "Groq (Llama 3.3 70B Versatile)", "Deepgram", "Silero ONNX(VAD)"],
+    githubUrl: "https://github.com/Ata-Ul-Hai/Confab",
+    liveUrl: null,
+    period: "Mar 2026",
+  }
 ];

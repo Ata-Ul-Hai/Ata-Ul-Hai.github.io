@@ -9,7 +9,7 @@ export const skillCategories = [
   },
   {
     category: "Frontend",
-    skills: ["React", "HTML", "CSS"],
+    skills: ["React19", "HTML", "Tailwind CSS"],
   },
   {
     category: "Databases",
@@ -21,6 +21,6 @@ export const skillCategories = [
   },
   {
     category: "Core Concepts",
-    skills: ["REST APIs", "Async Processing", "Blockchain (UTXO)", "LLM Integration"],
+    skills: ["REST APIs", "Async Processing", "Blockchain (UTXO)", "LLM Integration", "Testing(Vitest)"],
   },
 ];

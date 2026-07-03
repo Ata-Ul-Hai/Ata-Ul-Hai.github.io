@@ -1,6 +1,6 @@
 import githubIcon from '../assets/github-dark.svg';
 import linkedinIcon from '../assets/InBug-Black.png';
-import gmailIcon from '../assets/gmail.png';
+// import gmailIcon from '../assets/gmail.png';
 
 function Contact() {
   return (
@@ -15,7 +15,7 @@ function Contact() {
 
           <p className="contact-text">
             Open to backend engineering roles, interesting projects, and conversations
-            about distributed systems, AI pipelines, or Bitcoin protocol engineering.
+            about distributed systems, AI pipelines, or Open Source Contribution.
           </p>
 
           <div className="contact-links">

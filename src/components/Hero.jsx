@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import profilePic from '../assets/profile.JPG';
 
 const roles = [
-  'Backend Engineer',
+  'Full Stack Engineer',
   'CS Undergraduate @ Polaris & BITS',
   'AI & ML Enthusiast',
   'Open-Source Builder',
