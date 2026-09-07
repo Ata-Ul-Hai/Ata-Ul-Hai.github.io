@@ -12,7 +12,7 @@ Backend Engineer specializing in distributed systems, Bitcoin protocol tooling, 
 - **Autonomous Systems**: Local LLM integrations and automated debugging loops.
 
 ### 🤝 Connect with me
-- **Email**: [ataulhai.pst@gmail.com](mailto:ataulhai.pst@gmail.com)
+- **Email**: [ataulhai.pst@gmail.com](mailto:ataulhai2007@gmail.com)
 - **GitHub**: [@Ata-Ul-Hai](https://github.com/Ata-Ul-Hai)
 
 ---
