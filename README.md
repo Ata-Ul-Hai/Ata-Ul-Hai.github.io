@@ -1,6 +1,6 @@
 # Ata Ul Hai
 
-Backend Engineer specializing in distributed systems, Bitcoin protocol tooling, and autonomous AI agents. Currently a CS undergraduate at Polaris School of Technology & BITS Pilani.
+Full-Stack Engineer specializing in distributed systems, Bitcoin protocol tooling, and autonomous AI agents. Currently a CS undergraduate at Polaris School of Technology & BITS Pilani.
 
 🌐 **Live Portfolio:** [ata-ul-hai.github.io](https://ata-ul-hai.github.io/)
 
