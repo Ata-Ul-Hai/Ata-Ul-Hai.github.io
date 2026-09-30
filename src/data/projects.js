@@ -36,7 +36,7 @@ export const projects = [
       "Swirl is a React food ordering app built with Vite, React Router, Redux Toolkit, and Tailwind CSS. It lets users browse restaurants, inspect restaurant menus, add items to a cart, and explore a lazily loaded grocery section.",
     techStack: ["React19", "Axios", "Tailwind CSS", "Redux Toolkit", "Vitest"],
     githubUrl: "https://github.com/Ata-Ul-Hai/Swirl",
-    liveUrl: "swirl-theta.vercel.app",
+    liveUrl: "https://swirl-theta.vercel.app/",
     period: "Jun 2026",
   },
   {
