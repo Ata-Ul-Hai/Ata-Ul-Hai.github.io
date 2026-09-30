@@ -15,6 +15,11 @@ const ExternalIcon = () => (
   </svg>
 );
 
+const ensureAbsoluteUrl = (url) => {
+  if (!url) return '';
+  return /^https?:\/\//i.test(url) ? url : `https://${url}`;
+};
+
 function Projects() {
   return (
     <section id="projects" className="section projects">
@@ -45,7 +50,7 @@ function Projects() {
 
               <div className="project-links">
                 <a
-                  href={project.githubUrl}
+                  href={ensureAbsoluteUrl(project.githubUrl)}
                   className="project-link"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -56,7 +61,7 @@ function Projects() {
                 </a>
                 {project.liveUrl && (
                   <a
-                    href={project.liveUrl}
+                    href={ensureAbsoluteUrl(project.liveUrl)}
                     className="project-link"
                     target="_blank"
                     rel="noopener noreferrer"
