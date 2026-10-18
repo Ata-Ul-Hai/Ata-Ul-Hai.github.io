@@ -20,19 +20,15 @@ function About() {
             <div className="about-meta">
               <div className="about-meta-item">
                 <span className="about-meta-dot" />
-                <span>B.Tech CS (AI & ML) - Polaris School of Technology, 2025-2029</span>
+                <span>B.Tech CS (AI & ML) - Polaris School of Technology, 2025-2029 (CGPA: 8.94/10)</span>
               </div>
               <div className="about-meta-item">
                 <span className="about-meta-dot" />
-                <span>B.S. CS - BITS Pilani, 2026-2029</span>
+                <span>B.Sc CS - BITS Pilani, 2026-2029</span>
               </div>
               <div className="about-meta-item">
                 <span className="about-meta-dot" />
-                <span>Summer of Bitcoin 2026 participant - built Bitcoin protocol tooling</span>
-              </div>
-              <div className="about-meta-item">
-                <span className="about-meta-dot" />
-                <span>Core Organizing Committee - Polaris events including Vibecon & AI Engineers Day</span>
+                <span>Core Organizing Committee - Polaris events including OpenAI AI Engineers Day, Replit Vibeathon & Vibecon</span>
               </div>
             </div>
           </div>

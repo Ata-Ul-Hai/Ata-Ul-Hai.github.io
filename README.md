@@ -1,15 +1,15 @@
 # Ata Ul Hai
 
-Full-Stack Engineer specializing in distributed systems, Bitcoin protocol tooling, and autonomous AI agents. Currently a CS undergraduate at Polaris School of Technology & BITS Pilani.
+Full-Stack Engineer building autonomous AI agent systems, distributed backend pipelines, and full-stack products end to end. Currently a CS undergraduate at Polaris School of Technology & BITS Pilani.
 
 🌐 **Live Portfolio:** [ata-ul-hai.github.io](https://ata-ul-hai.github.io/)
 
 ---
 
 ### 🛠️ Core Focus
-- **Backend Architecture**: Scalable APIs and asynchronous processing pipelines.
-- **Bitcoin Engineering**: Protocol-level tools, block parsing, and transaction analysis.
-- **Autonomous Systems**: Local LLM integrations and automated debugging loops.
+- **AI Agent Systems**: Autonomous developer agent harnesses, tool calling, and voice AI agents.
+- **Backend Architecture**: High-concurrency distributed systems, asynchronous processing, and event-driven pipelines.
+- **Full-Stack Engineering**: Modern web applications, document-to-video pipelines, and cloud deployments (Docker & GCP).
 
 ### 🤝 Connect with me
 - **Email**: [ataulhai2007@gmail.com](mailto:ataulhai2007@gmail.com)

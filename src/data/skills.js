@@ -1,26 +1,44 @@
 export const skillCategories = [
   {
-    category: "Languages",
-    skills: ["Python", "JavaScript", "TypeScript"],
+    category: "AI & Agents",
+    skills: [
+      "Agent Harness Design",
+      "LLM Tool Calling",
+      "Multi-Provider Orchestration (LiteLLM)",
+      "Embeddings & Vector Retrieval",
+      "WebRTC",
+    ],
   },
   {
-    category: "Backend",
-    skills: ["FastAPI", "Node.js", "Express.js"],
+    category: "Languages",
+    skills: ["Python", "TypeScript", "JavaScript", "SQL", "Bash"],
+  },
+  {
+    category: "Backend & Data",
+    skills: [
+      "FastAPI",
+      "Node.js",
+      "Express.js",
+      "PostgreSQL",
+      "Supabase",
+      "Redis",
+      "BullMQ",
+      "REST APIs",
+      "JWT Authentication",
+    ],
   },
   {
     category: "Frontend",
-    skills: ["React19", "HTML", "Tailwind CSS"],
+    skills: ["React.js", "Tailwind CSS", "Redux Toolkit", "HTML5", "CSS3"],
   },
   {
-    category: "Databases",
-    skills: ["PostgreSQL", "MongoDB"],
-  },
-  {
-    category: "Cloud & DevOps",
-    skills: ["Docker", "Google Cloud Platform", "GCS", "Secret Manager"],
-  },
-  {
-    category: "Core Concepts",
-    skills: ["REST APIs", "Async Processing", "Blockchain (UTXO)", "LLM Integration", "Testing(Vitest)"],
+    category: "DevOps & Tools",
+    skills: [
+      "Docker",
+      "Google Cloud Run & Cloud Build",
+      "Git",
+      "Artillery",
+      "Vitest",
+    ],
   },
 ];
