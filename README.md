@@ -14,6 +14,7 @@ Full-Stack Engineer building autonomous AI agent systems, distributed backend pi
 ### 🤝 Connect with me
 - **Email**: [ataulhai2007@gmail.com](mailto:ataulhai2007@gmail.com)
 - **GitHub**: [@Ata-Ul-Hai](https://github.com/Ata-Ul-Hai)
+- **LinkedIn**: [ataulhai](https://www.linkedin.com/in/ataulhai/)
 
 ---
 *Built from scratch to showcase my journey and technical explorations.*
